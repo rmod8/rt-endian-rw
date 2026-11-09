@@ -1,0 +1,13 @@
+[package]
+name = "rt-endian-rw"
+version = "1.0.0"
+edition = "2024"
+description = "A Rust library crate that extends the 'Read' and 'Write' trait to read and write Rust types with a runtime-specified endianness."
+license = "MIT-0"
+readme = "README.md"
+repository = "https://github.com/rmod8/rt-endian-rw"
+keywords = ["io", "read", "write", "binary"]
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "deny"
